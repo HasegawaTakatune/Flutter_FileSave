@@ -1,0 +1,38 @@
+name: flutter_welcome
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+  cloud_firestore: ^0.13.7
+
+  intl: ^0.16.1
+  cupertino_icons: ^0.1.3
+  url_launcher: ^5.5.0
+  webview_flutter: ^0.3.22+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_native_splash: ^0.1.9
+
+  intl_translation: any
+
+flutter:
+
+  uses-material-design: true
+
+flutter_native_splash:
+  image: "images/reryka_logo_plane2.png"
+  color: "4DD0E1"

@@ -1,0 +1,27 @@
+// テーブル追加
+CREATE TABLE ANIMALS_BOOK(
+name TEXT,
+scientific_name TEXT,
+classification TEXT,
+classification_details TEXT,
+distribution TEXT,
+min_length INTEGER,
+max_length INTEGER,
+updateday TIMESTAMP
+);
+
+// テーブルにデータ追加
+INSERT INTO ANIMALS_BOOK VALUES('アカギツネ','Vulpes vulpes','ほ乳類','食肉目裂脚亜目イヌ科','北半球のほぼ全域、オーストラリア（移入）',65,90,'2020/07/21 10:25:33');
+INSERT INTO ANIMALS_BOOK VALUES('オオヤマネコ','Lynx lynx','哺乳類','食肉目裂脚亜目ネコ科','北アジア、ヨーロッパ',80,130,'2020/07/21 10:25:33');
+INSERT INTO ANIMALS_BOOK VALUES('キタキツネ','Vulpes vulpes schrencki','ほ乳類','食肉目裂脚亜目イヌ科','日本の北海道、千島列島南部、サハリン',60,80,'2020/07/21 10:25:33');
+INSERT INTO ANIMALS_BOOK VALUES('キンイロジャッカル','Canis aureus','ほ乳類','食肉目裂脚亜目イヌ科','アフリカ東部・北部、ヨーロッパ南東部から南アジア、東南アジアまで',60,75,'2020/07/21 10:25:33');
+INSERT INTO ANIMALS_BOOK VALUES('チーター','Acinonyx jubatus','ほ乳類','食肉目裂脚亜目ネコ科','アフリカから西アジア',120,150,'2020/07/21 10:25:33');
+INSERT INTO ANIMALS_BOOK VALUES('ピューマ','Felis concolor','ほ乳類','食肉目裂脚亜目ネコ科','カナダ南部から南アメリカ',100,197,'2020/07/21 10:25:33');
+INSERT INTO ANIMALS_BOOK VALUES('ベンガルトラ','Panthera tigris tigris','ほ乳類','食肉目裂脚亜目ネコ科','ネパール、インド、東南アジア',270,310,'2020/07/21 10:25:33');
+INSERT INTO ANIMALS_BOOK VALUES('マサイライオン','Panthera leo massaicus','ほ乳類','食肉目裂脚亜目ネコ科','アフリカ',260,330,'2020/07/21 10:25:33');
+
+
+INSERT INTO ANIMALS_BOOK VALUES('','','','','',,,'2020/07/21 10:25:33');
+
+// データ取得
+SELECT * FROM zoo;

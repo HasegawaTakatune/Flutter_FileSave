@@ -1,0 +1,8 @@
+// テーブル追加
+CREATE TABLE zoo(name TEXT,width INTEGER,height INTEGER,updateday TIMESTAMP);
+
+// テーブルにデータ追加
+INSERT INTO zoo VALUES('Tiger',140,119,'2020-07-20 17:26:34');
+
+// データ取得
+SELECT * FROM zoo;
