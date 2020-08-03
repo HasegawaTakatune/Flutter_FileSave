@@ -1,8 +1,8 @@
 # Flutter_FileSave  
   
 ## 概要  
- Flutterのサンプルとして作成したモノをまとめています。  
- 詳細は各プロジェクトにて説明します。  
+ Flutterのサンプルとして作成したモノをまとめています。大半はネットに転がっているサンプルをそのまま  
+ 使っています。ちゃんとした説明が欲しい場合は各プロジェクト内の参照項目からアクセスしてください。  
   
 ## 内容  
  - [flutter_app](https://github.com/HasegawaTakatune/Flutter_FileSave/tree/master/flutter_app)  
