@@ -1,6 +1,6 @@
 class Comn{
   /// アクセスポイント
-  static const String ACCESS_POINT = 'http://192.168.0.23/test/';
+  static const String ACCESS_POINT = 'http://XXXXXXXXXXXXX/test/';
 
   /// 名前
   static const String NAME = 'name';
